@@ -10,15 +10,17 @@ body {
     overflow: hidden;
 }
 
-.header, .hero {
+.hero {
     background-color: #1F2937;
-    padding: 16px 200px;
+    padding: 128px 200px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    background-color: #1F2937;
+    padding: 16px 200px;
 }
 
 .logo, .hero-main-text {
@@ -44,7 +46,6 @@ body {
     display: flex;
     gap: 60px;
     color: #F9FAF8;
-    padding: 128px 200px;
 }
 
 .hero-left, .hero-image {
