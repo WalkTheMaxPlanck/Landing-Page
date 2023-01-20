@@ -29,3 +29,45 @@ body {
     gap: 20px;
     font-size: 18px;
 }
+
+.hero {
+    display: flex;
+    gap: 60px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 128px 200px;
+}
+
+.hero-left, .hero-image {
+    flex: 1;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 32px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero-image {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
