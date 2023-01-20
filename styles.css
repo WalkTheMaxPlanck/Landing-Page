@@ -16,14 +16,16 @@ body {
     align-items: baseline;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 16px 160px;
+    padding: 16px 200px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: 700;
 }
 
 .right-links {
     display: flex;
-    gap: 16px;
+    gap: 20px;
+    font-size: 18px;
 }
